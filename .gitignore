@@ -1,0 +1,15 @@
+# Local operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+
+# Dependency and build output folders (if tooling is added later)
+node_modules/
+dist/
+coverage/
+
+# Local environment values must never be published
+.env
+.env.*
+!.env.example
